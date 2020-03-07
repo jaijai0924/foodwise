@@ -19,6 +19,10 @@ def inventory():
 def receipts():
     return render_template('')
 
+@app.route('/profile_page')
+def profile():
+    return render_template('profile.html')
+
 
 
 if __name__ == '__main__':
